@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529503253705",
+    "project_id": "chatapp-5c495",
+    "storage_bucket": "chatapp-5c495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529503253705:android:4dbc8452c1b998df98c918",
+        "android_client_info": {
+          "package_name": "com.komal.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeE53y3iG5lCR0UFsfu-pudknTnz5NMjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
