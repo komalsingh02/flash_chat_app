@@ -1,5 +1,6 @@
 name: chatapp
 description: A new Flutter project.
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -11,15 +12,13 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # build by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
 # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-# In Windows, build-name is used as the major, minor, and patch parts
-# of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: ">=2.17.0 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,10 +34,24 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  animated_text_kit: ^4.2.2
-  firebase_core: ^2.13.0
-  firebase_auth: ^4.6.1
-  cloud_firestore: ^4.7.1
+  firebase_auth: ^3.4.1
+  cloud_firestore: ^3.2.1
+  firebase_core: ^1.19.1
+  shared_preferences: ^2.0.15
+  provider: ^6.0.3
+  intl: ^0.17.0
+  grouped_list: ^5.1.2
+  firebase_storage: ^10.3.4
+  file_picker: ^5.0.0
+  flutter_spinkit: ^5.1.0
+  gallery_saver: ^2.3.2
+  dio: ^4.0.6
+  path_provider: ^2.0.11
+  flutter_sound: ^9.2.13 # recording sound
+  permission_handler: ^10.2.0 # taking permission from user
+  uuid: #unique id generator using uuid algo
+  audioplayers: ^0.20.1 # to play audio online
+  video_player: ^2.4.9 # play online video
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +77,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/logo.jpg
+   - images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
